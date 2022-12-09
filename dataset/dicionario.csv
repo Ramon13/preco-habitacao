@@ -1,0 +1,14 @@
+campo,datatype,descricao
+prica,number,valor do imóvel
+area,number,área da casa
+bedrooms,number,número de quartos
+bathrooms,number,número de banheiros
+stories,number,quantidade de andares
+mainroad,string,proximo a estrada principal(y, n)
+gestroom,string,possui quarto de hóspedes (y, n)
+basement,string,possui porão (y, n)
+hotwaterheating,string,possui aquecimento de água (y, n)
+airconditioning,string,possui ar codicionado (y, n)
+parking,number,vagas de estacionamento
+prefarea,string,está localizada na área principal da cidade (y, n)
+firnishingstatus,string,móveis (mobiliada, semi-mobiliada... )
