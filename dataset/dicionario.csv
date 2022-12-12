@@ -1,14 +1,14 @@
-campo,datatype,descricao
-prica,number,valor do imóvel
-area,number,área da casa
-bedrooms,number,número de quartos
-bathrooms,number,número de banheiros
-stories,number,quantidade de andares
-mainroad,string,proximo a estrada principal(y, n)
-gestroom,string,possui quarto de hóspedes (y, n)
-basement,string,possui porão (y, n)
-hotwaterheating,string,possui aquecimento de água (y, n)
-airconditioning,string,possui ar codicionado (y, n)
-parking,number,vagas de estacionamento
-prefarea,string,está localizada na área principal da cidade (y, n)
-firnishingstatus,string,móveis (mobiliada, semi-mobiliada... )
+campo,datatype,descricao,classificacao
+price,number,valor do imóvel,contínua
+area,number,área da casa,contínua
+bedrooms,number,número de quartos,discreta
+bathrooms,number,número de banheiros,discreta
+stories,number,quantidade de andares,discreta
+mainroad,string,proximo a estrada principal(y, n),categórica
+gestroom,string,possui quarto de hóspedes (y, n), categórica
+basement,string,possui porão (y, n),categórica
+hotwaterheating,string,possui aquecimento de água (y, n),categórica
+airconditioning,string,possui ar codicionado (y, n),categórica
+parking,number,vagas de estacionamento,discreta
+prefarea,string,está localizada na área principal da cidade (y, n),categórica
+firnishingstatus,string,móveis (mobiliada, semi-mobiliada... ),categórica
